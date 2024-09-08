@@ -207,7 +207,7 @@ export default function Header() {
 					</Grid>
 					<Grid md={6} xs={12}>
 						{/* <Image src={astro} style={{ height: 'auto', width: '50%' }} alt="astro" /> */}
-						<Image src='/project20-hamoontheme2/astronat.PNG' width='200' height='200' style={{ height: 'auto', width: '90%', marginRight: '0', marginLeft: 'auto' }} alt="astro" />
+						<Image src='/project20-hamoontheme2/images/astronat.PNG' width='200' height='200' style={{ height: 'auto', width: '90%', marginRight: '0', marginLeft: 'auto' }} alt="astro" />
 					</Grid>
 				</Grid>
 				{/* </FirstDiv> */}
