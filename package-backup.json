@@ -1,0 +1,30 @@
+{
+  "name": "project20-nextjs-hamoontheme2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.5",
+    "@mui/system": "^5.14.5",
+    "@types/aos": "^3.0.4",
+    "@types/node": "20.5.1",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "aos": "^3.0.0-beta.6",
+    "concurrently": "^8.2.1",
+    "cross-env": "^7.0.3",
+    "next": "13.4.19",
+    "npm": "^10.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^6.0.7",
+    "typescript": "5.1.6"
+  }
+}

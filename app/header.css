@@ -1,0 +1,42 @@
+header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.7rem 2rem;
+	box-shadow: 0 2px 15px #c2c2c2;
+	position: fixed;		/*mohem baraye box-shadow*/
+	z-index: 5;
+	width: 100%;
+	top: 0;
+	transition: top 0.7s;
+	background-color: #eee;
+}
+
+
+header nav ul.headRight {
+	list-style-type: none;
+	
+}
+
+header nav ul.headRight li {
+	display: inline-block;
+	margin-left: 1rem;
+}
+
+header nav div div div ul li {
+	margin-bottom: 0.7rem;
+}
+
+/* header Container {
+	font-size: 7rem;
+	background-color: #979797
+} */
+
+@media screen and (max-width: 768px) {
+	header div div div img {
+		display: block;
+		width: 85% !important;
+		margin: auto auto !important;
+	}
+	
+}

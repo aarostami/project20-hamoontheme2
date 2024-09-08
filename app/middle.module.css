@@ -1,0 +1,43 @@
+.ophead {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: #222222;
+}
+
+.feature {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.feature_head {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: #4e4e4e
+}
+
+.actionpart {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.Landingpage_head {
+	font-weight: 600;
+}
+
+.Landingpage {
+	padding-top: 0.7rem;
+	padding-bottom: 0.7rem;
+	color: #636363;
+}
+
+.Landingpage_link {
+	display: block;
+	text-align: right;
+	color: green;
+}
+
+/* footer */
+.footerlist {
+	display: inline-block;
+	margin-left: .5rem;
+}

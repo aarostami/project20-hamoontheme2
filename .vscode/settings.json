@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "<specific file>.json": "jsonc"
+    },
+    "files.associations": {
+        "*.json": "jsonc"
+    }
+}
