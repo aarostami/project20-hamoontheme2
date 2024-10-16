@@ -23,7 +23,14 @@ import CssBaseline from '@mui/material/CssBaseline'
 //}
 
 
-	
+	/* var theme = createTheme({
+		pallete: {
+			mode: 'light'
+		},
+		colorSchemes: {
+			dark: false
+		}
+	}); */
 
 export default function Home({ data,err }: any, error: any) {			//deghat Home({ data: any }) dorost nemishe
 	// var a = 'hid';
