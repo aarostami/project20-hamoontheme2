@@ -132,7 +132,7 @@ export default function Header() {
 							<h3 style={{color: 'black'}}>LANDING PAGES</h3>
 							<Grid container my='1rem'>	{/*agar ba display='flex' estefade konim va dakhelesh masalan <Grid sm estefade nakonim, dar halate mobile sakhte az @media estefade konim */}
 								<Grid xs={12} md={6}>
-									<ul style={{ listStyleType: 'none', '& li': {color: 'black'} }}>
+									<ul style={{ listStyleType: 'none', '& > li': {color: 'black'} }}>
 										<li id='li'><a href=''>Advertisement</a></li>
 										<li id='li'><a href=''>Marketing</a></li>
 										<li id='li'><a href=''>Course</a></li>
