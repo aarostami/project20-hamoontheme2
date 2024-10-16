@@ -18,7 +18,7 @@ import Grid from '@mui/system/Unstable_Grid'
 export default function Middle() {
 
 	return (
-		<main className='main'>
+		<main className='main' style={{backgroundColor: '#f7f9fc'}}>
 			<Container sx={{ display: 'flex', my: '3rem', backgroundColor: '#f7f9fc' }}>
 				{/* <div data-aos='fade-up'> */}	 {/* be jaye inke kolle box ha dar yek aos bashe, baryae responsive boodan bayad tak tak dakhele aos bezarim ta khoob beshe */}
 				<Grid container rowSpacing={2}>
