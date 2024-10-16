@@ -7,6 +7,8 @@ import Header from './Header'
 import Middle from './Middle'
 import Footer from './Footer'
 import { Box, Container } from '@mui/system'
+import {ThemeProvider, createTheme} from '@mui/material/styles'
+import CssBaseline from '@mui/material/CssBaseline'
 
 //"scripts": {
     //"dev": "concurrently \"cross-end NODE_OPTIONS=--max_old_space_size=2048 next dev\"",
@@ -29,18 +31,24 @@ export default function Home({ data,err }: any, error: any) {			//deghat Home({ 
 	console.log(data)
 	console.log(error)
 	console.log(err)
-	// var theme = createTheme();
+	var theme = createTheme({
+		pallete: {
+			mode: 'light'
+		}
+	});
 
 
 	return (
 		// <main className={styles.main}>
 		<>
+		<ThemeProvider theme={theme}>
+			<CssBaseline />
 			<Header />
 			<Middle />
 			<Footer />
 			{console.error()}
 			{/* {data} */}
-
+		</ThemeProvider>
 		</>
 
 
