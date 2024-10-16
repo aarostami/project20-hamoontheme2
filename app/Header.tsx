@@ -97,7 +97,7 @@ export default function Header() {
 
 
 	return (
-		<header>
+		<header style={{backgroundColor: '#f7f9fc'}}>
 			<nav id='nav'>
 				<Box display='flex'>
 					{/* <Button><i className=''></i></Button> */}
