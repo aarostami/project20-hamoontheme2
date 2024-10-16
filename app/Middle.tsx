@@ -64,7 +64,7 @@ export default function Middle() {
 				<Grid container justifyContent='space-between' columnSpacing={3} mb='2rem' rowSpacing={2}>
 					<Grid xs={12} sm={6} md={4}>
 						<div data-aos='fade-up'>
-							<Box style={{backgroundColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
+							<Box style={{bgColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
 								<Image src={fe1} style={{ width: '20%', height: '50%' }} alt='fe1' />
 								<h3 className={style.feature_head} style={{color: 'black'}}>Themeable</h3>
 								<p style={{ color: '#333' }}>Customize any part of our components to match your design needs.</p>
@@ -73,7 +73,7 @@ export default function Middle() {
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<div data-aos='fade-up'>
-							<Box style={{backgroundColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
+							<Box style={{bgColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
 								<Image src={fe2} style={{ width: '20%', height: '50%' }} alt='fe1' />
 								<h3 className={style.feature_head} style={{color: 'black'}}>Light and Dark UI</h3>
 								<p style={{ color: '#333' }}>Optimized for multiple color modes. Use light or dark, your choice.</p>
@@ -82,7 +82,7 @@ export default function Middle() {
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<div data-aos='fade-up'>
-							<Box style={{backgroundColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
+							<Box style={{bgColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
 								<Image src={fe3} style={{ width: '20%', height: '50%' }} alt='fe1' />
 								<h3 className={style.feature_head} style={{color: 'black'}}>Composable</h3>
 								<p style={{ color: '#333' }}>Designed with composition in mind. Compose new components with ease.</p>
@@ -95,7 +95,7 @@ export default function Middle() {
 					{/* <Grid container justifyContent='space-between' columnSpacing={3} mb='2rem' rowSpacing={2}> */}
 					<Grid xs={12} sm={6} md={4}>
 						<div data-aos='fade-up'>
-							<Box style={{backgroundColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
+							<Box style={{bgColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
 								<Image src={fe4} style={{ width: '20%', height: '50%' }} alt='fe1' />
 								<h3 className={style.feature_head} style={{color: 'black'}}>Developer Experience</h3>
 								<p style={{ color: '#333' }}>Guaranteed to boost your productivity when building your app or website.</p>
@@ -104,7 +104,7 @@ export default function Middle() {
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<div data-aos='fade-up'>
-							<Box style={{backgroundColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
+							<Box style={{bgColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
 								<Image src={fe5} style={{ width: '20%', height: '50%' }} alt='fe1' />
 								<h3 className={style.feature_head} style={{color: 'black'}}>Continuous Updates</h3>
 								<p style={{ color: '#333' }}>We continually deploy improvements and new updates to Webbee.</p>
@@ -113,7 +113,7 @@ export default function Middle() {
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<div data-aos='fade-up'>
-							<Box style={{backgroundColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
+							<Box style={{bgColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
 								<Image src={fe6} style={{ width: '20%', height: '50%' }} alt='fe1' />
 								<h3 className={style.feature_head} style={{color: 'black'}}>Free support</h3>
 								<p style={{ color: '#333' }}>6 months of free technical support to help you build your website faster.</p>
