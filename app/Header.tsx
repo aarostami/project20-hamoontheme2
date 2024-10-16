@@ -131,7 +131,7 @@ export default function Header() {
 							}} sx={{ display: 'block', marginRight: '0', marginLeft: 'auto' }}>close</Button>
 							<h3 style={{color: 'black'}}>LANDING PAGES</h3>
 							<Grid container my='1rem'>	{/*agar ba display='flex' estefade konim va dakhelesh masalan <Grid sm estefade nakonim, dar halate mobile sakhte az @media estefade konim */}
-								<Grid xs={12} md={6}>
+								<Grid xs={12} md={6} sx={{'& ul li a': {color: 'black'}}}>
 									<ul style={{ listStyleType: 'none', '&.li': {color: 'black'} }}>
 										<li id='li'><a href=''>Advertisement</a></li>
 										<li id='li'><a href=''>Marketing</a></li>
@@ -141,7 +141,7 @@ export default function Header() {
 										<li id='li'><a href=''>Travel</a></li>
 									</ul>
 								</Grid>
-								<Grid xs={12} md={6}>	{/*khodkar ye faseleii beyne do column ijad mikone */}
+								<Grid xs={12} md={6} sx={{'& ul li a': {color: 'black'}}}>	{/*khodkar ye faseleii beyne do column ijad mikone */}
 									<ul style={{ listStyleType: 'none', '& > li': {color: 'black'} }}>
 										<li id='li'><a href=''>Payment App</a></li>
 										<li id='li'><a href=''>Software Company</a></li>
@@ -154,7 +154,7 @@ export default function Header() {
 							</Grid>
 							<h3 style={{color: 'black'}}>SUPPORTING PAGES</h3>
 							<Grid container my='1rem'>
-								<Grid xs={12} md={6}>
+								<Grid xs={12} md={6} sx={{'& ul li a': {color: 'black'}}}>
 									<ul style={{ listStyleType: 'none', '& > li': {color: 'black'} }}>
 										<li id='li'><a href=''>About</a></li>
 										<li id='li'><a href=''>Contact</a></li>
@@ -162,7 +162,7 @@ export default function Header() {
 										<li id='li'><a href=''>Comming Soon</a></li>
 									</ul>
 								</Grid>
-								<Grid xs={12} md={6}>
+								<Grid xs={12} md={6} sx={{'& ul li a': {color: 'black'}}}>
 									<ul style={{ listStyleType: 'none', '& > li': {color: 'black'} }}>
 										<li id='li'><a href=''>Services</a></li>
 										<li id='li'><a href=''>Pricing</a></li>
@@ -172,7 +172,7 @@ export default function Header() {
 								</Grid>
 							</Grid>
 							<h3 style={{color: 'black'}}>Auth Page</h3>
-							<Grid container my='1rem'>
+							<Grid container my='1rem' sx={{'& ul li a': {color: 'black'}}}>
 								<ul style={{ listStyleType: 'none', '& > li': {color: 'black'} }}>
 									<li id='li'><a href=''>Login</a></li>
 									<li id='li'><a href=''>Sign Up</a></li>
