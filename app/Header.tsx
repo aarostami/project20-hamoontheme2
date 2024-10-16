@@ -186,8 +186,8 @@ export default function Header() {
 				</Box>
 				<Box>
 					<ul className='headRight'>
-						<li><Link href="/">Home</Link></li>
-						<li><Link href="/">Document</Link></li>
+						<li><Link href="/" style={{color: 'black'}}>Home</Link></li>
+						<li><Link href="/" style={{color: 'black'}}>Document</Link></li>
 					</ul>
 				</Box>
 			</nav>
@@ -198,7 +198,7 @@ export default function Header() {
 						<div data-aos='fade-right'>
 							{/* <Box sx={{ maxWidth: '50%' }}> */}
 							<Box>
-								<h1 style={{ fontSize: '4rem' }}>Turn your ideas into a <span style={{ color: 'green' }}>success.</span></h1>
+								<h1 style={{ fontSize: '4rem', color: 'black' }}>Turn your ideas into a <span style={{ color: 'green' }}>success.</span></h1>
 								<h3 style={{ fontSize: '1.3rem', color: '#777', marginTop: '.75rem', marginBottom: '.75rem' }}>Webbee will make your product look modern and professional while saving you precious time.</h3>
 								<Button sx={{ p: 2, backgroundColor: 'green', color: 'white', mr: 2, ':hover': { backgroundColor: '#06520a' } }}>Purchase now</Button>
 								<Button sx={{ p: 2, border: '1px solid green', color: 'green', ':hover': { color: 'green' } }}>View documentation</Button>

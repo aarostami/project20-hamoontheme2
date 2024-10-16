@@ -19,7 +19,7 @@ export default function Middle() {
 
 	return (
 		<main className='main'>
-			<Container sx={{ display: 'flex', my: '3rem' }}>
+			<Container sx={{ display: 'flex', my: '3rem', backgroundColor: '#f7f9fc' }}>
 				{/* <div data-aos='fade-up'> */}	 {/* be jaye inke kolle box ha dar yek aos bashe, baryae responsive boodan bayad tak tak dakhele aos bezarim ta khoob beshe */}
 				<Grid container rowSpacing={2}>
 					<Grid xs={12} sm={6} md={4}>
@@ -27,8 +27,8 @@ export default function Middle() {
 							<Box textAlign='center'>
 								{/* <Image src={option1} width='30' height='30' alt='op1' /> */}
 								<Image src={option1} style={{ width: '25%', height: '35%' }} alt='op1' />
-								<h3 className={style.ophead}>Built for developers</h3>
-								<p>Webbee is built to make your life easier. Variables, build tooling, documentation, and reusable components.</p>
+								<h3 className={style.ophead} style={{color: 'black'}}>Built for developers</h3>
+								<p style={{color: 'black'}}>Webbee is built to make your life easier. Variables, build tooling, documentation, and reusable components.</p>
 							</Box>
 						</div>
 					</Grid>
@@ -36,8 +36,8 @@ export default function Middle() {
 						<div data-aos='fade-up'>
 							<Box textAlign='center'>
 								<Image src={option2} style={{ width: '25%', height: '35%' }} alt='op1' />
-								<h3 className={style.ophead}>Designed to be modern</h3>
-								<p>Designed with the latest design trends in mind. Webbee feels modern, minimal, and beautiful.</p>
+								<h3 className={style.ophead} style={{color: 'black'}}>Designed to be modern</h3>
+								<p style={{color: 'black'}}>Designed with the latest design trends in mind. Webbee feels modern, minimal, and beautiful.</p>
 							</Box>
 						</div>
 					</Grid>
@@ -45,46 +45,46 @@ export default function Middle() {
 						<div data-aos='fade-up'>
 							<Box textAlign='center'>
 								<Image src={option3} style={{ width: '25%', height: '35%' }} alt='op1' />
-								<h3 className={style.ophead}>Documentation for everything</h3>
-								<p>We've written extensive documentation for components and tools, so you never have to reverse engineer anything.</p>
+								<h3 className={style.ophead} style={{color: 'black'}}>Documentation for everything</h3>
+								<p style={{color: 'black'}}>We've written extensive documentation for components and tools, so you never have to reverse engineer anything.</p>
 							</Box>
 						</div>
 					</Grid>
 				</Grid>
 			</Container>
-			<Container sx={{ textAlign: "center", my: '5rem' }} maxWidth='md'>
-				<p>FEATURES</p>
+			<Container sx={{ textAlign: "center", my: '5rem', backgroundColor: '#f7f9fc' }} maxWidth='md'>
+				<p style={{color: 'black'}}>FEATURES</p>
 				<h1 className={style.feature} style={{ color: '#333' }}>The powerful and flexible theme for all kinds of businesses</h1>
 				<h4 className={style.feature} style={{ color: '#888' }}>Build a beautiful, modern website with flexible, fully customizable, atomic Material-UI components. An experience you'd expect from a design system.</h4>
 				<Button variant='contained' color='success'>Purchase now</Button>
 				<Image src={feature} style={{ width: '80%', display: 'block', marginLeft: 'auto', marginRight: 'auto', marginTop: '1.5rem' }} alt='feature' />
 			</Container>
-			<Container sx={{ display: 'flex', flexWrap: 'wrap', py: '1rem' }}>	{/*ham taraz nist nemidoonam chera? ama agar az <Grid> estefade mikonim faghat, taraz mishe. */}
+			<Container sx={{ display: 'flex', flexWrap: 'wrap', py: '1rem', backgroundColor: '#f7f9fc' }}>	{/*ham taraz nist nemidoonam chera? ama agar az <Grid> estefade mikonim faghat, taraz mishe. */}
 				{/* <div data-aos='fade-up'> */}	{/* be jaye inke kolle box ha dar yek aos bashe, baryae responsive boodan bayad tak tak dakhele aos bezarim ta khoob beshe */}
 				<Grid container justifyContent='space-between' columnSpacing={3} mb='2rem' rowSpacing={2}>
 					<Grid xs={12} sm={6} md={4}>
 						<div data-aos='fade-up'>
-							<Box borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
+							<Box style={{backgroundColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
 								<Image src={fe1} style={{ width: '20%', height: '50%' }} alt='fe1' />
-								<h3 className={style.feature_head}>Themeable</h3>
+								<h3 className={style.feature_head} style={{color: 'black'}}>Themeable</h3>
 								<p style={{ color: '#333' }}>Customize any part of our components to match your design needs.</p>
 							</Box>
 						</div>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<div data-aos='fade-up'>
-							<Box borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
+							<Box style={{backgroundColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
 								<Image src={fe2} style={{ width: '20%', height: '50%' }} alt='fe1' />
-								<h3 className={style.feature_head}>Light and Dark UI</h3>
+								<h3 className={style.feature_head} style={{color: 'black'}}>Light and Dark UI</h3>
 								<p style={{ color: '#333' }}>Optimized for multiple color modes. Use light or dark, your choice.</p>
 							</Box>
 						</div>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<div data-aos='fade-up'>
-							<Box borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
+							<Box style={{backgroundColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
 								<Image src={fe3} style={{ width: '20%', height: '50%' }} alt='fe1' />
-								<h3 className={style.feature_head}>Composable</h3>
+								<h3 className={style.feature_head} style={{color: 'black'}}>Composable</h3>
 								<p style={{ color: '#333' }}>Designed with composition in mind. Compose new components with ease.</p>
 							</Box>
 						</div>
@@ -95,27 +95,27 @@ export default function Middle() {
 					{/* <Grid container justifyContent='space-between' columnSpacing={3} mb='2rem' rowSpacing={2}> */}
 					<Grid xs={12} sm={6} md={4}>
 						<div data-aos='fade-up'>
-							<Box borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
+							<Box style={{backgroundColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
 								<Image src={fe4} style={{ width: '20%', height: '50%' }} alt='fe1' />
-								<h3 className={style.feature_head}>Developer Experience</h3>
+								<h3 className={style.feature_head} style={{color: 'black'}}>Developer Experience</h3>
 								<p style={{ color: '#333' }}>Guaranteed to boost your productivity when building your app or website.</p>
 							</Box>
 						</div>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<div data-aos='fade-up'>
-							<Box borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
+							<Box style={{backgroundColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
 								<Image src={fe5} style={{ width: '20%', height: '50%' }} alt='fe1' />
-								<h3 className={style.feature_head}>Continuous Updates</h3>
+								<h3 className={style.feature_head} style={{color: 'black'}}>Continuous Updates</h3>
 								<p style={{ color: '#333' }}>We continually deploy improvements and new updates to Webbee.</p>
 							</Box>
 						</div>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<div data-aos='fade-up'>
-							<Box borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
+							<Box style={{backgroundColor: 'black'}} borderRadius='8px' boxShadow='1px 1px 5px #ddd' padding='1rem'>
 								<Image src={fe6} style={{ width: '20%', height: '50%' }} alt='fe1' />
-								<h3 className={style.feature_head}>Free support</h3>
+								<h3 className={style.feature_head} style={{color: 'black'}}>Free support</h3>
 								<p style={{ color: '#333' }}>6 months of free technical support to help you build your website faster.</p>
 							</Box>
 						</div>
