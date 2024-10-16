@@ -1,7 +1,6 @@
 'use client'
 import Image from 'next/image'
 import styles from './page.module.css'
-import { createTheme } from '@mui/material'
 import Button from '@mui/material/Button'
 import Header from './Header'
 import Middle from './Middle'
