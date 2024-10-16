@@ -25,7 +25,7 @@ import CssBaseline from '@mui/material/CssBaseline'
 
 	var theme = createTheme({
 		colorSchemes: {
-			mode: 'light'
+			dark: false
 		}
 	});
 
