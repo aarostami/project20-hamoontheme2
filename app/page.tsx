@@ -23,6 +23,11 @@ import CssBaseline from '@mui/material/CssBaseline'
 //}
 
 
+	var theme = createTheme({
+		pallete: {
+			mode: 'light'
+		}
+	});
 export default function Home({ data,err }: any, error: any) {			//deghat Home({ data: any }) dorost nemishe
 	// var a = 'hid';
 	// console.log(a)
@@ -30,11 +35,6 @@ export default function Home({ data,err }: any, error: any) {			//deghat Home({ 
 	console.log(data)
 	console.log(error)
 	console.log(err)
-	var theme = createTheme({
-		pallete: {
-			mode: 'light'
-		}
-	});
 
 
 	return (
