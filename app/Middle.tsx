@@ -124,33 +124,33 @@ export default function Middle() {
 				{/* </div> */}
 			</Container>
 			<Container maxWidth='xl' sx={{ textAlign: 'center', py: '2rem', backgroundColor: '#f7f9fc' }}>
-				<p>DEMO PAGES</p>
-				<h1 className={style.actionpart}>Webbee in action</h1>
-				<h3 className={style.actionpart}>All examples you find below are included in the download package.</h3>
+				<p style={{color: 'black'}}>DEMO PAGES</p>
+				<h1 className={style.actionpart} style={{color: 'black'}}>Webbee in action</h1>
+				<h3 className={style.actionpart} style={{color: 'black'}}>All examples you find below are included in the download package.</h3>
 				<Box>
 					<Button variant='contained' color='success' sx={{ borderRadius: '3px', mr: '10px' }}>Purchase now</Button>
 					<Button variant='outlined' color='success' sx={{ borderRadius: '3px' }}>View documentation</Button>
 				</Box>
-				<h2 style={{ textAlign: 'start', marginTop: '2rem' }}>Landing Pages</h2>
+				<h2 style={{ textAlign: 'start', marginTop: '2rem', color: 'black' }}>Landing Pages</h2>
 				{/* <Container sx={{py: '2rem'}} maxWidth='md'> */}
 				<Grid container textAlign='start' pt='2rem'>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Advertisement</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Advertisement</p>
 							<p className={style.Landingpage}>Advertisment page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Payment App</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Payment App</p>
 							<p className={style.Landingpage}>Payment App page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Marketing</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Marketing</p>
 							<p className={style.Landingpage}>Marketing page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
@@ -159,21 +159,21 @@ export default function Middle() {
 					{/* <Grid container textAlign='start'> */}
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Software Company</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Software Company</p>
 							<p className={style.Landingpage}>Software Company page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Course App</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Course App</p>
 							<p className={style.Landingpage}>Course page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Crypto Currency</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Crypto Currency</p>
 							<p className={style.Landingpage}>Crypto Currency page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
@@ -182,21 +182,21 @@ export default function Middle() {
 					{/* <Grid container textAlign='start'> */}
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Design Agency</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Design Agency</p>
 							<p className={style.Landingpage}>Design Agency page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Consulting</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Consulting</p>
 							<p className={style.Landingpage}>Consulting page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Application</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Application</p>
 							<p className={style.Landingpage}>Application page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
@@ -204,26 +204,26 @@ export default function Middle() {
 				</Grid>
 				{/* </Container> */}
 				{/* --------------------------------------------------------------------- */}
-				<h2 style={{ textAlign: 'start', marginTop: '2rem' }}>Supporting Pages</h2>
+				<h2 style={{ textAlign: 'start', marginTop: '2rem', color: 'black' }}>Supporting Pages</h2>
 				{/* <Container sx={{py: '2rem'}} maxWidth='md'> */}
 				<Grid container textAlign='start' pt='2rem'>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>About</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>About</p>
 							<p className={style.Landingpage}>About page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Services</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Services</p>
 							<p className={style.Landingpage}>Services page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Contact</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Contact</p>
 							<p className={style.Landingpage}>Contact page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
@@ -231,21 +231,21 @@ export default function Middle() {
 					{/* <Grid container textAlign='start'> */}
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Pricing</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Pricing</p>
 							<p className={style.Landingpage}>Pricing page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Customers</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Customers</p>
 							<p className={style.Landingpage}>Customers page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Hire Us</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Hire Us</p>
 							<p className={style.Landingpage}>Hire Us page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
@@ -253,26 +253,26 @@ export default function Middle() {
 				</Grid>
 				{/* </Container> */}
 				{/* --------------------------------------------------------------------- */}
-				<h2 style={{ textAlign: 'start', marginTop: '2rem' }}>Auth Pages</h2>
+				<h2 style={{ textAlign: 'start', marginTop: '2rem', color: 'black' }}>Auth Pages</h2>
 				{/* <Container sx={{py: '2rem'}} maxWidth='md'> */}
 				<Grid container textAlign='start' pt='2rem'>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Login</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Login</p>
 							<p className={style.Landingpage}>Login page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Sign Up</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Sign Up</p>
 							<p className={style.Landingpage}>Sign Up page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
 					</Grid>
 					<Grid xs={12} sm={6} md={4}>
 						<Box border='1px solid #aaa' padding='2rem'>
-							<p className={style.Landingpage_head}>Forget Password</p>
+							<p className={style.Landingpage_head} style={{color: 'black'}}>Forget Password</p>
 							<p className={style.Landingpage}>Forget Password page</p>
 							<a href='' className={style.Landingpage_link}>View demo</a>
 						</Box>
