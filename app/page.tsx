@@ -41,14 +41,14 @@ export default function Home({ data,err }: any, error: any) {			//deghat Home({ 
 	return (
 		// <main className={styles.main}>
 		<>
-		<ThemeProvider theme={theme}>
+		{/* <ThemeProvider theme={theme}> */}
 			{/* <CssBaseline /> */}
 			<Header />
 			<Middle />
 			<Footer />
 			{console.error()}
 			{/* {data} */}
-		</ThemeProvider>
+		{/* </ThemeProvider> */}
 		</>
 
 
