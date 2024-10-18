@@ -281,9 +281,9 @@ export default function Middle() {
 				{/* </Container> */}
 			</Container>
 			<Container maxWidth='md' sx={{ textAlign: 'center', py: '2rem' }}>
-				<p style={{backgroundColor: 'black'}}>GET STARTED</p>
-				<h1 className={style.actionpart} style={{backgroundColor: 'black'}}>Get started with Webbee today</h1>
-				<h3 className={style.actionpart} style={{backgroundColor: 'black'}}>Build a beautiful, modern website with flexible, fully customizable, atomic Material-UI components.</h3>
+				<p style={{color: 'black'}}>GET STARTED</p>
+				<h1 className={style.actionpart} style={{color: 'black'}}>Get started with Webbee today</h1>
+				<h3 className={style.actionpart} style={{color: 'black'}}>Build a beautiful, modern website with flexible, fully customizable, atomic Material-UI components.</h3>
 				<Button variant='contained' color='success' sx={{ borderRadius: '3px', mr: '10px' }}>Purchase now</Button>
 			</Container>
 		</main >
